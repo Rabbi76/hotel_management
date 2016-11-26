@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Hotel Paradise </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<style style="text/css">
+			body
+			{
+		
+				background: url(images/contact.jpg) no-repeat center center fixed; 
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+
+			
+			}
+			ul.data
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: #333;
+			}
+
+			li.data
+			{
+				float: left;
+			}
+
+			li.data a 
+			{
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 45.9px;
+				text-decoration: none;
+			}
+
+			li.data a:hover:not(.active)
+			{
+				background-color: #111;
+			}
+			
+			.div
+			{
+				float : left
+			}
+			.active 
+			{
+				background-color: DarkSalmon ;
+			}
+	
+			
+		.left
+		{
+			width; 100%;
+		}
+
+		
+		
+		.end
+		{
+			
+			float: left;
+			height: 100px;
+			width: 100%;
+			padding: 5px 0;
+			color: white;
+			
+		}
+		
+	
+		.transbox
+		{	
+			float: left;
+			height: 200px;
+			width: 100%;	
+			//margin: 30px;
+			 background-color: #ffffff;
+			border: 1px solid black;
+			opacity: 0.8;
+			filter: alpha(opacity=80); /* For IE8 and earlier */
+			position: relative;
+
+		}
+		.tc_wid
+		{
+			float:left;
+			text-align:center-left;
+			width:20%;
+			height:180px;
+			
+			
+		}
+		.password
+		{
+			background-color: #F8F8FF;
+			float:right;
+		}
+		.maincon
+		{
+			background-color: #FFDAB9;
+				border: 1px solid black;
+				opacity: 0.8;
+				filter: alpha(opacity=80);	
+				height:550px;
+		}
+		.add
+		{
+			background-color:#FFDEAD;
+			width:40%;
+			float:left;
+			
+			
+		}
+		.map
+		{	
+		
+			float:left;
+			width:55%;
+			margin: 2px;
+		}
+		h2
+		{
+			text-decoration: underline;
+			color:blue;
+		}
+			.form {float:right;}
+		</style>
+	</head>
+	<body>
+		<h1 style="color:white; font-family:Lucida Handwriting; font-size:359%; text-align:center"><b> Hotel Paradise </b></h1>
+		<form  class="form" action="user_login.php" method="post" align="right">
+			<input type="Username" name="Username"placeholder="Username"autocomplete requierd/>
+		    <input type="Password" name="password" maxlength="9" placeholder="Enter Password"requierd/>
+			<input type="submit" value="Login"><br/>
+			<div class="password">
+				<a href="forget_pass.php"  >Forget Password? </a>
+				<a href="New.php"> Creat New Account<a/><br/>	
+			</div>	
+		</form>
+		
+		
+		<a href="index.html"><img src="images/paradise.png" alt="Work" style="width:100px;height:88px;"></a> <br/> <br>
+		<ul class="data";>
+			<li class="data";><a href="index.html">Home</a></li>
+			<li class="data";><a href="reservation.php">Reservation</a></li>
+			<li class="data";><a href="room.html">Rooms & Suits</a></li>
+			<li class="data";><a href="restaurant.html">Restaurent</a></li>
+			<li class="data";><a href="recreation.html">Recreation</a></li>
+			<li class="data";><a href="event.html">Meeting & Events</a></li>
+			<li class="data";><a class="active" href="contact.html">Contacts</a></li>
+			<li class="data";><a href="package.html">Our Packages</a></li>
+		</ul>
+		
+		<br/> <br/>
+<div class="container">
+
+	<div class="maincon">
+		<div class="add">
+			<h2 align="center";> Address</h2>
+			<br/>
+			<h4 align="center";> 28-29, Hotel Motel Zone, Kolatoli Road, Cox's Bazar 4700, Bangladesh</h4>
+			<h4 align="center";>Phone:+880 1715-042797</h4>
+			<h4 align="center";> Website: www.hotelparadise.com.bd</h4>
+		</div>
+		
+		<div class="map">
+			<h2 align="center";> Google Map </h2>
+			<img style="float:left;width:100%; height;200px ;background-color:#F8F8FF" src="images/map.png""> </a>
+		</div>
+	</div>
+		<br/> <br/>
+	<div class="transbox">
+		
+				<div class="tc_wid">
+					<h3>Rooms</h3>
+					<ul>
+						<li><a href="singleRoom.html">Single Room</a></li>
+						<li><a href="coupleRoom.html">Couple Room</a></li>
+						<li><a href="familyRoom.html">Family Room</a></li>
+					</ul>
+				</div>
+
+				<div class="tc_wid">
+					<h3>Suites</h3>
+					<ul>
+						<li><a href="presidentialSuite.html">Presidential Suite</a></li>
+						<li><a href="royalSucite.html">Royal Suite</a></li>
+                        <li><a href="honymoonSuite.html">Honeymoon Suite</a></li>
+					</ul>
+				</div>
+
+				<div class="tc_wid">
+					<h3>Restaurant</h3>
+					<ul>
+						<li><a href="edgeRestauran.html">EDGE Restaurant</a></li>
+                        <li><a href="theCourtyard.html">THE COURTYARD</a></li>
+					</ul>	
+				</div>
+
+				<div class="tc_wid">
+
+					<h3>Meeting & Events</h3>
+					<ul>
+						<li><a href="event.html">Conference Hall</a></li>
+                        <li><a href="event.html">Hall Of Star</a></li>
+                        <li><a href="event.html">Andromeda</a></li>
+                        <li><a href="event.html">Executive Club</a></li>
+                        <li><a href="event.html">Events</a></li>
+					</ul>
+				</div>
+
+				<div cclass="tc_wid">
+					<h3>Recreation</h3>
+					<ul>
+						<li><a href="swimmingPool.html">Swimming Pool &amp; Jacuzzi</a></li>
+                        <li><a href="swimmingPool.html">Sauna &amp; Steam Bath</a></li>
+                        <li><a href="billiardZone.html">Billiard Zone</a></li>
+                        <li><a href="gym.html">Gym</a></li>
+					</ul>
+				</div>
+
+	</div>
+	
+	<div class="end">
+                
+        <div style="float:left; height:auto; width:50%; ">
+		
+            <div style="float:left; height:auto; width:100%;">
+			    <h4 style="padding:0 0 10px 0; margin:10px;float:left">We Accept</h4>
+                <img style="float:left; background-color:#FFF8DC" src="images/partner.png">
+			</div>
+			
+			<div style="float:left; height:auto; width:100%; margin-top:5px;">
+                <h4 style="padding:20px 10px 10px 0; margin:0; float:left;">Our Banking Partner</h4>
+                <img style="float:left; width:30%; height;30px" src="images/brac.png">
+             </div>
+                        
+        </div>    
+                
+        <div style="float:right; height:auto; width:50%;">
+                   
+			<div >
+                <div style="float:right; height:auto; width:auto;">
+                    <h4 style="padding:6px 10px 0 0; margin:0; float:left;">Follow us on</h4>
+					<a href="#" target="_blank">
+					<img style="float:left;width:30%; height;30px ;background-color:white" src="images/fb.png""> </a>
+                </div>
+                        
+             </div>
+                    
+        </div>   
+           	</div>     
+    </div>
+		
+	</body>
+</html>
